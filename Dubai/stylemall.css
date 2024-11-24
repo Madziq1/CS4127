@@ -1,0 +1,88 @@
+/*Navigation bar*/
+.navbar-container {
+    justify-content: flex-end;
+}
+
+.navbar {
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar a {
+    display: inline-block;
+    color: black;
+    text-align: center; 
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 3px;
+    border: 2px solid transparent;
+}
+.navbar a:hover {
+    background-color: #ddd;
+}
+
+/*Title*/
+.title {
+    text-align: center;
+    background-color: lightgrey;
+    padding: 2%;
+    border: 2px solid darkgrey;
+}
+
+
+/*Main*/
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    background-color: lightgreen;
+    border: 2px solid black;
+}
+
+.content-container {
+    margin-bottom: 80px;
+    margin: 5%;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+
+.mall-image {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.mall-image img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 5px;
+    flex: 1;
+    border: 2px solid black;
+}
+
+.mall-list {
+    font-size: 1.1rem;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: black;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    background-color: #ddd;
+    border: 2px solid #333;
+    text-align: justify;
+}
+
+/*Footer*/
+footer {
+    background-color: #ececec;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid darkgrey;
+}

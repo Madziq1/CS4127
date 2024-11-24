@@ -1,0 +1,95 @@
+/*Navigation bar*/
+.navbar-container {
+    justify-content: flex-end;
+}
+
+.navbar {
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar a {
+    display: inline-block;
+    color: black;
+    text-align: center; 
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 3px;
+    border: 2px solid transparent;
+}
+.navbar a:hover {
+    background-color: #ddd;
+}
+
+/*Title*/
+.title {
+    text-align: center;
+    background-color: lightgrey;
+    padding: 2%;
+    border: 2px solid darkgrey;
+}
+
+
+/*Main*/
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.content-container {
+    margin-bottom: 80px;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    background-color: lightskyblue;
+    border: 2px solid black;
+}
+
+.culture-image {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.culture-image img {
+    max-width: 35%;
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.culture-paragraph {
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: black;
+    padding-bottom: 10px;
+    background-color: #ddd;
+    border: 1px solid #333;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/*Footer*/
+footer {
+    background-color: #ececec;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid darkgrey;
+}

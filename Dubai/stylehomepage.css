@@ -1,0 +1,95 @@
+
+/*Navigation bar*/
+.navbar-container {
+    justify-content: flex-end;
+}
+
+.navbar {
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.navbar a {
+    display: inline-block;
+    color: black;
+    text-align: center; 
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 3px;
+    border: 2px solid transparent;
+}
+.navbar a:hover {
+    background-color: #ddd;
+}
+
+
+/*Title*/
+.title {
+    text-align: center;
+    background-color: lightgrey;
+    padding: 2%;
+    border: 2px solid darkgrey;
+}
+
+
+/*Main*/
+.homepage-image{
+    position: relative;
+    width: 39vw;
+    height: auto;
+    margin: 0 auto;
+}
+
+.homepage-image img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    border: 2px solid black;
+}
+
+.homepage2-image {
+    display: flex;
+    justify-content: center;
+    gap: 10px;   
+}
+
+.homepage2-image img {
+    width: 40%;
+    height: auto;
+    border: 2px solid black;
+}
+
+.content {
+    width: 50vw;
+    margin: -10px auto 0;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+}
+
+p {
+    margin: 0;
+    text-align: justify;
+    padding-bottom: 8%;
+}
+
+.subtitle1 {
+    background-color: beige;
+    border: 1px solid black;
+}
+
+
+/*Footer*/
+footer {
+    background-color: #ececec;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid darkgrey;
+}
+
